@@ -1,4 +1,3 @@
-nome,fornecedor,grupos,inicio,fim
-ZEN,ZEN,POLIA RODA LIVRE,2025-05-01,2025-05-31
-ZEN,ZEN,ESTATOR ALTERNADOR,2025-05-01,2025-05-31
-ZEN,ZEN,AUTOMATICO PARTIDA,2025-05-01,2025-05-31
+nome,fornecedor,grupos,inicio,fim,personalizado,tipo,meta_geral,metas_por_loja
+CAMPANHA MONROE,MONROE,AMORTECEDOR,2025-05-01,2025-05-31,True,Geral,900,{}
+MONROE,MONROE,AMORTECEDOR,2025-05-01,2025-05-31,True,Por Loja,0,"{""04"": 100}"
