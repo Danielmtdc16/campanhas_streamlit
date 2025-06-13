@@ -238,6 +238,7 @@ elif aba == "Campanhas Ativas":
                     st.metric("Meta Geral", int(row['meta_geral'] or 0))
                     total = int(df_ag['liquido'].sum())
                     pct = (100 * total / int(row['meta_geral'])) if row['meta_geral'] else 0
+                    st.metric("Total líquido:", total)
                     st.metric("% Atingido", f"{pct:.1f}%")
                 else:
                     st.markdown("**Metas por Loja:**")
